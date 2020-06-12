@@ -1,4 +1,17 @@
 
+.floating-btn{
+	width:80px;
+	height:80px;
+	background:black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	text-decoration:none;
+	border-radius:50%;
+	color:white;
+	font-size:40px;
+}
+
 /* Home */
 
 .home{
@@ -361,6 +374,7 @@
 	font-size: 60%;
 }
 
+<<<<<<< HEAD
 /* Clients Infinite Slider */
 
 .rollingcontainer {
@@ -370,6 +384,64 @@ overflow: hidden;
 flex-wrap: wrap;
 flex-direction: row; */
 }
+=======
+/* testimonial */
+  
+  .section-padding{
+	padding: 10px 0;
+  }
+  .testimonial-carousel{
+	margin: 1% auto;
+  }
+  
+  .img-area{
+	width:70px;
+	height: 70px;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+  }
+  
+  .img-area img{
+	width: 100%;
+  }
+  .img-text {
+	  margin: 10px 0 0 0;
+  }
+  .img-text p{
+	width: 100%;
+	height: 200px;
+	overflow: auto;  
+  }
+  
+  .single-testi{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	padding: 5% 5% !important;
+	text-align: center;
+	/* border-radius: 20px; */
+	margin: 0 auto;
+	/* border: 1px black solid; */
+  }
+
+
+
+/* roller */
+
+.rollingHolder{
+	overflow: hidden;
+  }
+  
+  .rollingcontainer {
+	overflow: hidden;
+	/* margin: 0 10%; */
+	/* display: flex;
+	flex-wrap: wrap;
+	flex-direction: row; */
+  }
+>>>>>>> 544bf4dbb444a52bd1860122faca52e234143af3
   
   .rollerHeader{
 	margin: 2% 0%;
