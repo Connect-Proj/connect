@@ -361,17 +361,6 @@
 	font-size: 60%;
 }
 
-<<<<<<< HEAD
-/* Clients Infinite Slider */
-
-.rollingcontainer {
-overflow: hidden;
-/* margin: 0 10%; */
-/* display: flex;
-flex-wrap: wrap;
-flex-direction: row; */
-}
-=======
 /* testimonial */
   
   .section-padding{
@@ -428,7 +417,6 @@ flex-direction: row; */
 	flex-wrap: wrap;
 	flex-direction: row; */
   }
->>>>>>> 544bf4dbb444a52bd1860122faca52e234143af3
   
   .rollerHeader{
 	margin: 2% 0%;
