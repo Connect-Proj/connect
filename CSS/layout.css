@@ -390,6 +390,26 @@
 	font-size: 60%;
 }
 
+/*--Counter---*/
+
+.counterRow{
+	padding:30px 0;
+}
+.fa-icon{
+	font-size:40px;
+	color:#d4af37
+}
+
+.counter{
+	font-size:30px;
+	border-radius: 50%;
+}
+
+.counterStructure {
+	font-size:20px;
+	text-align: center;
+}
+
 /* testimonial */
   
   .section-padding{
@@ -429,7 +449,7 @@
 	/* border-radius: 20px; */
 	/* margin: 0 auto; */
 	/* border: 1px black solid; */
-*/ */
+
 
 
 
@@ -476,17 +496,21 @@
   }
 
 /* products */
-	.productImage{
-		background-image: url('../Images/connectbg.jpg');
-	}
+.product-img.img1{
+	background-image: url('../Images/exams.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.product-img.img2{
+	background-image: url('../Images/shortclaps.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
 /* Business Values */
 
-/* .card{
-	width: 70%;
-	height: 300px;
-	background-color: cadetblue;
-	margin: 0 auto;
-} */
+
 
 /* Contact */
 
@@ -500,27 +524,3 @@
 	cursor: pointer;
 }
 
-.fab-container{
-	position:fixed;
-	bottom:50px;
-	right:50px;
-	z-index:999;
-	cursor:pointer;
-	border:1px solid blue;
-}
-.fab-icon-folder{
-	width:50px;
-	height:50px;
-	border-radius:100%;
-	box-shadow: 0 6px 20px rgba(0,0,0,0,2);
-}
-.fab-icon-holder{
-	display:flex;
-	align-items:center;
-	justify-content:center;
-
-	height:100%;
-	font-style:25px;
-	color:#ffffff;
-
-}
