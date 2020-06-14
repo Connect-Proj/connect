@@ -665,7 +665,7 @@ li.dropdown-menu{
 			border : 0;
 		}	
 	}
-	@media only screen and (max-width:900px and min-width:710px){
+	@media only screen and (max-width:900px) and (min-width:710px){
 		.owl-carousel .owl-prev {
 			left: 45%;
 		}
