@@ -5,6 +5,11 @@ html,body{
 	padding:0;
 }
 
+.page{
+	margin:0;
+	padding:0;
+}
+
 /* Base */
 
 .section-title{
@@ -70,6 +75,8 @@ html,body{
 	color: white;
 	opacity: 0.8;
 }
+
+/*Sidebar*/
 
 /* Home */
 .home-body{
@@ -162,13 +169,14 @@ html,body{
 	margin:20px 10%;
 	width:80%;
 }
-.myNav{
-		display:none;
-	}
+
+
+
+
 @media only screen and (min-width:768px){
 	
 	.home-row{
-		padding:3% 3%;
+		padding:8% 3%;
 	}
 	.home-title{
 		text-align: left;
@@ -187,10 +195,13 @@ html,body{
 		margin:15px 0;
 		width:50%;
 	}
+	.myNav{
+		display:flex;
+	}
 }
 @media only screen and (min-width:768px){
 	.home-row{
-		padding:0 3%;
+		padding:3% 3%;
 	}
 	.home-title{
 		text-align: left;
@@ -212,9 +223,74 @@ html,body{
 	}
 }
 /* My Navigation */
+.section-nav{
+	width:100%;
+}
 .myNav{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 0 4%;
+	padding: 5px 0;
+	text-align:center;
 }
+	
+.stickyNav{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:999;
+	padding:15px 0;
+	text-align:center;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+	background-color:white;
+	-webkit-animation: slidebig 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: slidebig 1s; /* Firefox < 16 */
+	-ms-animation: slidebig 1s; /* Internet Explorer */
+    -o-animation: slidebig 1s; /* Opera < 12.1 */
+	animation: slidebig 1s;
+}
+
+@keyframes slidebig {
+    from { opacity:0 }
+    to   { opacity:1 }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slidebig {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slidebig {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slidebig {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slidebig {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+#navbar a{
+	font-size:15px;
+	padding:5px;
+	text-decoration:none;
+}
+
+#navbar a:hover{
+	font-size:14px;
+}
+
+
+
 /*--Counter---*/
 
 .counterRow{
