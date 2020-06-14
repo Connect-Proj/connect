@@ -5,6 +5,10 @@ html,body{
 	padding:0;
 }
 
+.page{
+	margin:0;
+	padding:0;
+}
 
 /* Base */
 
@@ -190,7 +194,7 @@ html,body{
 	}
 	
 	.home-row{
-		padding:3% 3%;
+		padding:2% 3%;
 	}
 	.home-title{
 		text-align: left;
