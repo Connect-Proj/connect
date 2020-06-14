@@ -624,6 +624,7 @@ li.dropdown-menu{
   .owl-prev i, .owl-next i {
 	transform : scale(2,5); 
 	color: #007BFF;
+	font-size: 10px;
   }
   .owl-carousel .owl-nav.disabled{
 	display: block;
