@@ -5,10 +5,6 @@ html,body{
 	padding:0;
 }
 
-.page{
-	margin:0;
-	padding:0;
-}
 
 /* Base */
 
@@ -170,9 +166,6 @@ html,body{
 	width:80%;
 }
 
-
-
-
 @media only screen and (min-width:768px){
 	
 	.home-row{
@@ -195,11 +188,7 @@ html,body{
 		margin:15px 0;
 		width:50%;
 	}
-	.myNav{
-		display:flex;
-	}
-}
-@media only screen and (min-width:768px){
+	
 	.home-row{
 		padding:3% 3%;
 	}
@@ -225,6 +214,7 @@ html,body{
 /* My Navigation */
 .section-nav{
 	width:100%;
+	display:none;
 }
 .myNav{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -283,14 +273,56 @@ html,body{
 	font-size:15px;
 	padding:5px;
 	text-decoration:none;
+	font-weight: bold;
+	color:black;
 }
 
 #navbar a:hover{
 	font-size:14px;
 }
 
+button.myDropdown{
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+	background-color: white;
+	border:none;
+}
+.myDropdown:focus{
+	outline:0;
+}
+.dropdown-menu{
+	border-radius:0;
+	box-shadow: 4px 0 8px 0 rgba(0,0,0,0.2);
+}
 
+li.dropdown-menu{
+	font-size:15px;
+	font-weight:none;
+}
 
+@media only screen and (min-width:768px){
+	.section-nav{
+		width:100%;
+		display:block;
+	}
+	
+}
+
+@media only screen and (max-width:768px){
+	.section-nav{
+		width:100%;
+		display:block;
+	}
+
+	#navbar a{
+		font-size:13px;
+	}
+	button.myDropdown{
+		font-size:12px;
+	}
+	
+}
 /*--Counter---*/
 
 .counterRow{
