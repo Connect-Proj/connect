@@ -1,4 +1,5 @@
 
+/* floating button */
 
 .float{
 	position:fixed;
@@ -28,6 +29,7 @@
 	color: white;
 	opacity: 0.8;
 }
+
 /* Home */
 
 .home{
@@ -417,6 +419,7 @@
   }
   .testimonial-carousel{
 	margin: 1% auto;
+	position: relative;
   }
   
   .img-area{
@@ -496,18 +499,17 @@
   }
 
 /* products */
-.product-img.img1{
+/* .product-img.img1{
 	background-image: url('../Images/exams.png');
 	background-repeat: no-repeat;
 	background-size:cover;
-}
+} */
 
-.product-img.img2{
+/* .product-img.img2{
 	background-image: url('../Images/shortclaps.png');
 	background-repeat: no-repeat;
 	background-size:cover;
-
-}
+} */
 /* Business Values */
 
 
@@ -524,3 +526,42 @@
 	cursor: pointer;
 }
 
+
+.owl-prev, .owl-next {
+	position: absolute;
+}
+.owl-prev { 
+	left: 45%; 
+	top:90%;
+}
+.owl-next { 
+	right: 45%; 
+	top: 90%;
+}
+.owl-prev i, .owl-next i {
+	transform : scale(2,5); color:green;
+}
+.owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.owl-nav button:focus{
+	outline : 0;
+	border : 0;
+}
+
+.owl-nav button :hover{
+	color: grey;
+	outline : 0;
+	border : 0;
+}
+
+@media only screen and (max-width: 600px){
+	.owl-prev { 
+		left: 100px; 
+		top:90%;
+	}
+	.owl-next { 
+		right: 100px; 
+		top: 90%;
+	}
+}

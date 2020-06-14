@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
 
@@ -70,9 +70,9 @@
         </div>
     </div>
 
-  <div class="container">
+  <div class="container mb-4">
       <div class="row my-3 justify-content-center"><h2>Testimonials</h2></div>
-      <div class="testimonial-carousel section-padding owl-carousel">
+      <div class="testimonial-carousel section-padding owl-carousel owl-theme owl-nav disabled">
           <div class="card shadow p-3 mb-5 bg-white rounded">
               <div class="img-area">
                 <img src="./Images/p1.png" alt="">
@@ -145,7 +145,6 @@
       </div>
   </div>
 
-
     
 		<!-- customRoller -->
   <div class="rollingHolder container-fluid">
@@ -165,11 +164,11 @@
   <div class="container-fluid">
       <div class="row my-3 justify-content-center"><h2>Our Products</h2></div>
       <div class="row my-3">
-          <div class="col-sm-6 product-img img1" >
-              
+          <div class="col-sm-6 customStyling" >
+              <img src="./Images/exams.png" alt="Image1" width="300">
           </div>
           <div class="col-sm-6 px-sm-5">
-              <div>
+              <div class="product-info-div">
                   <div class="productHeader">
                       <h3>Product-1</h3>
                   </div>
@@ -187,33 +186,15 @@
                       </p>
                   </div>
                   <div>
-                      <div class="productHeader">
-                          <h3>Product-1</h3>
-                      </div>
-                      <div class="productBody py-3">
-                          <p class="justify-content-left">
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                              suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                              eius asperiores fugiat nemo dolor harum dicta earum tenetur?
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                              suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                              eius asperiores fugiat nemo dolor harum dicta earum tenetur?
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                              suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                              eius asperiores fugiat nemo dolor harum dicta earum tenetur?    
-                          </p>
-                      </div>
-                      <div>
-                          <button class="btn btn-primary" type="submit">Button</button>
-                      </div>
-
+                    <button class="btn btn-primary" type="submit">Button</button>
                   </div>
               </div>
           </div>
+      </div>
           <div class="row my-3">
 
               <div class="col-sm-6 px-sm-5" >
-                  <div> 
+                  <div class="product-info-div"> 
                       <div class="productHeader">
                           <h3>Product-1</h3>
                       </div>
@@ -234,32 +215,12 @@
                           <button class="btn btn-primary" type="submit">Button</button>
                       </div>
                   </div>    
-              </div>
-              <div class="col-sm-6" >
-                  <div class="productBody py-3">
-                      <p class="justify-content-left">
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                          suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                          eius asperiores fugiat nemo dolor harum dicta earum tenetur?
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                          suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                          eius asperiores fugiat nemo dolor harum dicta earum tenetur?
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sit minus autem
-                          suscipit, similique dolores ex incidunt fuga. Accusamus repudiandae molestias
-                          eius asperiores fugiat nemo dolor harum dicta earum tenetur?    
-                      </p>
-                  </div>
-                  <div>
-                      <button class="btn btn-primary" type="submit">Button</button>
-                  </div>
               </div>    
-          </div>
-          <div class="col-sm-6" >
-              <div class="productBody py-3">
-                <div class="col-sm-6 product-img img2" >
-              
+              <div class="col-sm-6 customStyling">
+                <div class="productBody py-3">
+                    <img src="./Images/shortclaps.png" alt="image2" width="300">
                 </div>
-              </div>
+              </div>  
           </div>
       </div>
     </section>
@@ -376,8 +337,10 @@
     <script>
       $('.testimonial-carousel').owlCarousel({
         loop:true,
-        margin:20,
-        autoplay:true,
+        margin:10,
+        nav:true,
+        dots : false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         responsive:{
             0:{
                 items:1
