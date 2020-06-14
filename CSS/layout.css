@@ -407,6 +407,45 @@ li.dropdown-menu{
   .testimonial-body p:hover{
 	overflow: auto; 
   }
+  .owl-prev, .owl-next {
+	position: absolute;
+  }
+  .owl-prev { 
+	left: 45%;  
+	top:95%;
+  }
+  .owl-next { 
+	right: 45%; 
+	top: 95%;
+  }
+  .owl-prev i, .owl-next i {
+	transform : scale(2,5); 
+	color: #007BFF;
+  }
+  .owl-carousel .owl-nav.disabled{
+	display: block;
+  }
+  .owl-nav button:focus{
+	outline : 0;
+	border : 0;
+  }
+  
+  .owl-nav button :hover{
+	color:blue;
+	outline : 0;
+	border : 0;
+  }
+  
+  @media only screen and (max-width: 600px){
+	.owl-prev { 
+		left: 100px; 
+		top:90%;
+	}
+	.owl-next { 
+		right: 100px; 
+		top: 90%;
+	}
+}
 
 /* roller */
 
@@ -483,6 +522,9 @@ li.dropdown-menu{
 .fa-phone-square{
 	color:green;
 }
+
 .fa-envelope{
 	color:red;
 }
+
+
