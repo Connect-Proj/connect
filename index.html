@@ -43,6 +43,47 @@
     
   <div class="container-fluid page">
 
+    <nav>
+      <ul>
+        <li><a href="https://facebook.com">About</a></li>
+      </ul>
+      <div class="button">
+        <a class="btn-open" href="#"></a>
+      </div>
+    </nav>
+      <div class="overlay">
+        <div class="wrap">
+          <ul class="wrap-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a>
+            <ul>
+              <li><a href="https://www.google.hr/">Connect Exam</a></li>
+              <li><a href="#">Short Claps</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="social">
+            <div class="social-icon">
+              <i class="fa fa-facebook"></i>
+            </div>
+            </a>
+            <a href="#">
+            <div class="social-icon">
+              <i class="fa fa-twitter"></i>
+            </div>
+            </a>
+            <a href="#">
+            <div class="social-icon">
+              <i class="fa fa-instagram"></i>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      
     <div class="section-home container-fluid">
       <div class="row home-row align-items-center justify-content-center">
         <div class="col-12 col-sm-6">
@@ -350,6 +391,21 @@
     <script>
       window.onscroll = function() {scrollFunction()};
 
+        /*Menu Overlay*/
+        $(document).ready(function(){
+            $(".button a").click(function(){
+                $(".overlay").fadeToggle(200);
+              $(this).toggleClass('btn-open').toggleClass('btn-close');
+            });
+        });
+        $('.overlay').on('click', function(){
+            $(".overlay").fadeToggle(200);   
+            $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+            open = false;
+        });
+
+
+        /*Sticky Navigation*/
         function scrollFunction() {
           if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
             document.getElementById("navbar").classList.add('stickyNav');
@@ -359,6 +415,8 @@
             document.getElementById("navbar").classList.remove('stickyNav');
           }
         }
+
+        /*Testimonial Carousel*/
       
         $('.testimonial-carousel').owlCarousel({
         loop:true,
