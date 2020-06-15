@@ -21,7 +21,7 @@ html,body{
 }
 
 .btn{
-	background-image: linear-gradient(to bottom right, #f76b1c, #f8a23e);
+	background-image: linear-gradient(to bottom right, #ed1c24, #f9a72b);
 	border:none;
 	font-weight: bold;
 }
@@ -84,6 +84,7 @@ html,body{
 }
 
 .home-title{
+	display:inline;
 	font-size:60px;
 	font-weight: bolder;
 	text-align:center;
@@ -104,6 +105,7 @@ html,body{
 		margin:0;
 	}
 }
+
 .home-subtitle{
 	font-size:20px;
 	font-weight: bold;
@@ -531,15 +533,15 @@ li.dropdown-menu{
 }
 
 .fa-university{
-	color:navy;
+	color:#7CA2D9;
 }
 
-.fa-puzzle-piece{
-	color:lightcoral;
+.fa-chalkboard-teacher{
+	color:blue;
 }
 
-.fa-tasks{
-	color:slateblue;
+.fa-hourglass-half{
+	color:#EDE69D;
 
 }
 
