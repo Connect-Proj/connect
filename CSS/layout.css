@@ -705,17 +705,32 @@ li.dropdown-menu{
   }
 
 /* products */
-.product-img.img1{
-
+.shortClaps-img{
+	background-image: url();
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: cover;
+	width: 100%;
 }
-
-.product-img.img2{
-
+.connectExams-img{
+	background-image: url(../Images/connecExam-img1.png);
 	background-repeat: no-repeat;
-	background-size:cover;
-
+	background-size:contain;
+	width: 100%;
+}
+.simpli5-img{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.zkool-img{
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	
 }
 /* Business Values */
 
