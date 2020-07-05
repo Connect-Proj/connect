@@ -391,11 +391,14 @@ nav ul li a {
 .fa-facebook{
 	color:#3b5998;
 }
-.fa-twitter{
-	color:#0084b4;
+.fa-youtube{
+	color:#FF0000;
 }
 .fa-instagram{
 	color:#f56040;
+}
+.fa-linkedin{
+	color:#0077B5;
 }
 
 
@@ -686,7 +689,7 @@ li.dropdown-menu{
   }
   
   .sliding-background {
-	background: url("../Images/roller.png") repeat-x;
+	background: url("../Images/long\ logo\ corrected.png") repeat-x;
 	height: 300px;
 	width: 5076px;
 	animation: slide 30s linear infinite;  
