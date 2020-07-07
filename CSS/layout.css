@@ -84,7 +84,6 @@ html,body{
 }
 
 .home-title{
-	display:inline;
 	font-size:60px;
 	font-weight: bolder;
 	text-align:center;
@@ -171,14 +170,18 @@ html,body{
 	width:80%;
 }
 
+.homeButton:hover{
+	opacity:0.7;
+}
+
 @media only screen and (min-width:768px){
 	
 	.home-row{
 		padding:2% 3%;
 	}
 	.home-title{
-		text-align: left;
-		font-size: 100px;
+		text-align: center;
+		font-size: 80px;
 		width:0;	
 	} 
 	.home-subtitle{
@@ -196,6 +199,10 @@ html,body{
 	}
 }
 /* My Navigation */
+
+.navButton:hover{
+	background-color: #F8F8F8;
+}
 
 
 /*Side Overlay Nav*/
@@ -238,8 +245,8 @@ nav ul li a {
 .button {
 	display:inline;
 	position:absolute;
-	right:50px;
-	top:6px;
+	right:25px;
+	top:10px;
 	z-index:999;
 	font-size:25px;
 }
@@ -525,6 +532,21 @@ li.dropdown-menu{
 	}
 	
 }
+
+.dropdown-menu{
+	border:none;
+	border-radius:5px;
+	box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+
+}
+
+.dropdown:hover .dropdown-menu{
+	
+	display:block;
+	left:70px;
+	
+}
+
 /*--Counter---*/
 
 .counterRow{
