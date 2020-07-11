@@ -8,6 +8,8 @@ html,body{
 
 /* Base */
 
+
+
 .page{
 	margin:0;
 	padding:0;
@@ -161,13 +163,19 @@ html,body{
     to   { opacity: 1; }
 }
 
+
+
 .home-img img{
 	width:100%;
 }
 
+.home-img1 img{
+	height:50vh;
+}
+
 .homeButton{
 	margin:20px 10%;
-	width:80%;
+	width:50%;
 }
 
 .homeButton:hover{
@@ -194,10 +202,23 @@ html,body{
 		
 	}
 	.homeButton{
-		margin:15px 0;
-		width:70%;
+		margin:5vh 0;
+		padding:2vh 2.5vh;
 	}
 }
+
+@media only screen and (min-width:1024px){
+	
+	.home-title{
+		text-align: center;
+		font-size: 120px;
+		width:0;	
+	} 
+	
+}
+
+
+
 /* My Navigation */
 
 .navButton:hover{
@@ -751,9 +772,7 @@ li.dropdown-menu{
 	background-size: cover;
 	width: 100%;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon{
-	
-}
+
 /* Business Values */
 
 
@@ -792,4 +811,17 @@ li.dropdown-menu{
 	font-size:26px;
 }
 
+
+/*Simpli5*/
+
+.pillar-icon{
+	width:20%;
+	display:block;
+}
+.pillarcard{
+	cursor:pointer;
+}
+.pillarcard:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
