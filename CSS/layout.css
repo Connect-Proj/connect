@@ -174,8 +174,9 @@ html,body{
 }
 
 .homeButton{
-	margin:20px 10%;
+	margin:20px 50%;
 	width:50%;
+	transform: translate(-53%,0);
 }
 
 .homeButton:hover{
@@ -203,6 +204,7 @@ html,body{
 	}
 	.homeButton{
 		margin:5vh 0;
+		transform: none;
 		padding:2vh 2.5vh;
 	}
 }
