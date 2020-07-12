@@ -173,10 +173,7 @@ html,body{
 	height:50vh;
 }
 
-.homeButton{
-	margin:20px 10%;
-	width:50%;
-}
+
 
 .homeButton:hover{
 	opacity:0.7;
@@ -201,10 +198,10 @@ html,body{
 		text-align:left;
 		
 	}
-	.homeButton{
+	/* .homeButton{
 		margin:5vh 0;
 		padding:2vh 2.5vh;
-	}
+	} */
 }
 
 @media only screen and (min-width:1024px){
@@ -841,7 +838,5 @@ li.dropdown-menu{
 	font-size:20px;
 	font-weight:bold;
 }
-.content{
-	margin: 0 2%;
-}
+
 
