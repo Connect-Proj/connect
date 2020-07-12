@@ -61,12 +61,12 @@ html,body{
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+  	font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-  outline: 0;
-  border: 0ch;
-  opacity: 1;
+	z-index:100;
+	outline: 0;
+	border: 0ch;
+	opacity: 1;
 }
 
 .my-float{
@@ -174,9 +174,8 @@ html,body{
 }
 
 .homeButton{
-	margin:20px 50%;
+	margin:20px 25%;
 	width:50%;
-	transform: translate(-50%,0);
 }
 
 .homeButton:hover{
@@ -204,7 +203,6 @@ html,body{
 	}
 	.homeButton{
 		margin:5vh 0;
-		transform: none;
 		padding:2vh 2.5vh;
 	}
 }
