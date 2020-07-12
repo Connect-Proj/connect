@@ -176,7 +176,7 @@ html,body{
 .homeButton{
 	margin:20px 50%;
 	width:50%;
-	transform: translate(-53%,0);
+	transform: translate(-50%,0);
 }
 
 .homeButton:hover{
