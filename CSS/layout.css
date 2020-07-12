@@ -732,7 +732,7 @@ li.dropdown-menu{
   }
   
   .sliding-background {
-	background: url("/Images/long\ logo\ corrected1\ \(1\)\ \(1\)\ \(1\)\ \(1\)\ \(1\)\ \(1\)\ \(1\)-compressed.jpg") repeat-x;
+	background: url("../Images/compressedRoller.jpg") repeat-x;
 	height: 300px;
 	width: 5250px;
 	animation: slide 25s linear infinite;  
