@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;600&display=swap');
+
 html,body{
 	scroll-behavior: smooth;
 	font-family:'exo 2',sans-serif;
+	font-weight: 300;
+	font-size:17px;
+	line-height:30px;
+	justify-content:justify;
 	margin:0;
 	padding:0;
 }
@@ -28,9 +34,6 @@ html,body{
 	font-weight: bold;
 }
 
-.content{
-	font-size:18px;
-}
 
 /*Custom Scrollbar*/
 
@@ -282,7 +285,7 @@ nav ul li a {
 	transition:all .2s linear 0s;
 }
 .btn-close:after {
-	color:#fff;
+	color:black;
 	content:"\f00d";
 	font-family:"FontAwesome";
 	transition-property:all .2s linear 0s;
@@ -788,6 +791,8 @@ li.dropdown-menu{
 
 
 /* Contact */
+
+
 
 .customStyling{
 	border: 1px black solid;
