@@ -42,53 +42,6 @@
     </a>  
     
   <!-- Landing page starts -->
-  <div class="container-fluid page">
-    <!-- Side Overlay Menu -->
-    <nav>
-      <ul>
-        <li><a href="#"><img src="./Images/logo.jpg" class="menu-logo">onnect</a></li>
-      </ul>
-      <div class="button">
-        <a class="btn-open" href="#"></a>
-      </div>
-    </nav>
-      <div class="overlay">
-        <div class="wrap">
-          <ul class="wrap-nav">
-            <li><a href="#"><img src="./Images/menulogo.png" class="menu-logo"></a></li>
-            <li><a href="#">Products</a>
-            <ul>
-              <li><a href="https://www.google.hr/">Connect Exam</a></li>
-              <li><a href="#">Short Claps</a></li>
-              <li><a href="#">Simpli5</a></li>
-              <li><a href="#">Zkool.org</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Business Values</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-          <div class="social">
-            <a href="">
-            <div class="social-icon">
-              <i class="fa fa-facebook"></i>
-            </div>
-            </a>
-            <a href="#">
-            <div class="social-icon">
-              <i class="fa fa-twitter"></i>
-            </div>
-            </a>
-            <a href="#">
-            <div class="social-icon">
-              <i class="fa fa-instagram"></i>
-            </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    <!-- Side Overlay Menu Ends -->
       
     <!-- Hero Section Starts -->
     <div id="home" class="section-home container-fluid">
@@ -220,3 +173,39 @@
         </div> 
         
       </div>
+
+<script>
+    /*Menu Overlay*/
+    $(document).ready(function(){
+            alert("1");
+            $(".button a").click(function(){
+                $(".overlay").fadeToggle(200);
+            alert("3");
+              $(this).toggleClass('btn-open').toggleClass('btn-close');
+              alert("4");
+            });
+        });
+        $('.overlay').on('click', function(){
+            $(".overlay").fadeToggle(200);   
+            $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+            open = false;
+        });
+
+
+
+        /*Sticky Navigation in JS*/
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+            document.getElementById("navbar").classList.add('stickyNav');
+            document.getElementById("navbar").classList.remove('myNav');
+          } else {
+            document.getElementById("navbar").classList.add('myNav');
+            document.getElementById("navbar").classList.remove('stickyNav');
+          }
+        }
+
+</script>
+
+</body>
+</html>
