@@ -15,18 +15,18 @@
   ================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/layout.css">    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="CSS/owl.carousel.css">
-    <link rel="stylesheet" href="CSS/owl.theme.default.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/layout.css">    
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <link rel="stylesheet" href="CSS/owl.carousel.css">
+  <link rel="stylesheet" href="CSS/owl.theme.default.css">
 
-    <!--Fonts-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <!--Kits-->
+  <!--Fonts-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!--Kits-->
    
   
   <!-- JS, Popper.js, and jQuery -->
@@ -42,6 +42,52 @@
     </a>  
     
   <!-- Landing page starts -->
+  <!-- Side Overlay Menu -->
+  <nav>
+    <ul>
+      <li><a href="#"><img src="./Images/logo.jpg" class="menu-logo">onnect</a></li>
+    </ul>
+    <div class="button">
+      <a class="btn-open" href="#"></a>
+    </div>
+  </nav>
+    <div class="overlay">
+      <div class="wrap">
+        <ul class="wrap-nav">
+          <li><a href="#home"><img src="./Images/menulogo.png" class="menu-logo"></a></li>
+          <li><a href="#products">Products</a>
+          <ul>
+            <li><a href="#connectexams">Connect Exam</a></li>
+            <li><a href="#shortclaps">Short Claps</a></li>
+            <li><a href="./simpli5.html">Simpli5</a></li>
+            <li><a href="#zkool">Zkool.org</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#businessvalues">Business Values</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="social">
+          <a href="">
+          <div class="social-icon">
+            <i class="fa fa-facebook"></i>
+          </div>
+          </a>
+          <a href="#">
+          <div class="social-icon">
+            <i class="fa fa-twitter"></i>
+          </div>
+          </a>
+          <a href="#">
+          <div class="social-icon">
+            <i class="fa fa-instagram"></i>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  <!-- Side Overlay Menu Ends -->
       
     <!-- Hero Section Starts -->
     <div id="home" class="section-home container-fluid">
@@ -169,27 +215,110 @@
                     </div>
                 </div> 
             </div>
-
         </div> 
-        
       </div>
+      <!-- Contact Section Starts -->
+      <hr>
+      <div id="contact" class="section-contact container-fluid">
+        <div class="container py-4">
+          <div class="row py-1 px-3">
+                  <div class="col-sm-4 pt-3">
+                      <div class="foot-nav">
+                          <p>Products</p><br>
+                          <p>Services</p><br>
+                          <p>Projects</p><br>
+                          <p>Clients</p><br>
+                          <p>Testimonial</p><br>    
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div>
+                          <div>
+                              <h5 class="foot-title">Get  in touch with our team</h5>
+                          </div>
+                          <form class="messageSection">
+                              <div class="form-group mt-3">
+                                  <label class="formLabel" for="exampleInputUsername">Name</label>
+                                  <input type="text" class="form-control" id="exampleInputUsername" placeholder="Enter Name">
+                                </div>
+                              <div class="form-group">
+                                  <label class="formLabel" for="exampleInputEmail1">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                              <div class="form-group">
+                                  <label class="formLabel" for="message" class="messageLabel">Leave a message</label><br>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Leave a message"></textarea>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+
+                      </div>
+                  </div>
+                  <div class="col-sm-4 my-sm-0 my-1 mt-3">
+                      <div>
+                          <div class="mb-3"><h5 class="foot-title">Contact Info</h5></div>
+                      </div>
+                      <div class="mt-2">
+                        <div class="row">
+                          <div class="col-2 col-xl-1 mt-sm-2 mt-4"><i class="fa fa-address-book" aria-hidden="true" style="font-size: 30px;" wi></i></div>
+                          <div class="col-10 col-xl-11"><p>10B/1 J, First Floor, Vannarpettai, [opp. RMKV], Trivandrum Rd, Tirunelveli, Tamil Nadu 627002</p>  
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-2 col-xl-1"><i class="fa fa-phone-square" aria-hidden="true" style="font-size: 30px;"></i></div>
+                          <div class="col-10 col-xl-11"><p>9600965961</p></div>  
+                        </div>
+                        <div class="row mt-2">
+                          <div class="col-2 col-xl-1"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></div>
+                          <div class="col-10 col-xl-11"><p>info@connecteducation.in</p></div>  
+                        </div>
+                        <div class="row mx-4 px-4">
+                          <div class="col-3 col-md-6 col-lg-3 text-align-center contact-icon">
+                            <a href="https://www.facebook.com/connect4training/" target="_blank">
+                              <i class="fa fa-facebook "></i>
+                            </a>
+                          </div>
+                          <div class="col-3 col-md-6 col-lg-3 text-align-center contact-icon">
+                            <a href="https://www.youtube.com/channel/UC4Fn1no34LT9y2sl2UEdTvQ" target="_blank">
+                              <i class="fa fa-youtube "></i>
+                            </a>
+                          </div>
+                          <div class="col-3 col-md-6 col-lg-3 text-align-center contact-icon">
+                            <a href="https://www.instagram.com/invites/contact/?i=11ox1yfs8m2ha&utm_content=15w28va" target="_blank">
+                              <i class="fa fa-instagram "></i>
+                            </a>
+                          </div>
+                          <div class="col-3 col-md-6 col-lg-3 text-align-center contact-icon">
+                            <a href="https://www.linkedin.com/company/connect-training-solutions-private-limited" target="_blank">
+                              <i class="fa fa-linkedin "></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>    
+                </div>
+              </div>
+            </div>
+          <!-- Contacts Section Ends -->
 
 <script>
-    /*Menu Overlay*/
-    $(document).ready(function(){
-            alert("1");
-            $(".button a").click(function(){
-                $(".overlay").fadeToggle(200);
-            alert("3");
-              $(this).toggleClass('btn-open').toggleClass('btn-close');
-              alert("4");
-            });
-        });
-        $('.overlay').on('click', function(){
-            $(".overlay").fadeToggle(200);   
-            $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-            open = false;
-        });
+     
+     $(document).ready(function(){
+          $(".button a").click(function(){
+            $(".overlay").fadeToggle(200);
+            $(this).toggleClass('btn-open').toggleClass('btn-close');
+            alert("done");
+          });
+        
+          $('.overlay').on('click', function(){
+              $(".overlay").fadeToggle(200);   
+              $(".button a").toggleClass('btn-open').toggleClass('btn-close');
+              open = false;
+          });
+      });
+
+
 
 
 

@@ -11,6 +11,19 @@ html,body{
 	padding:0;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+}
+  
+.container section:first-child {
+	display: flex;
+}
+
+.container img {
+	width: auto;
+	height:125px;
+}
 
 /* Base */
 
@@ -550,9 +563,9 @@ li.dropdown-menu{
 	margin: 1% auto;
   }
   
-  .testimonial-pic{
-	width:70px;
-	height: 70px;
+  .testimonial-pic img{
+	width:50px !important;
+	height: 50px !important;
 	display: block;
 	overflow: hidden;
 	border-radius: 50%;
@@ -682,30 +695,12 @@ li.dropdown-menu{
 	animation: slidein 2s;
 	animation-duration:2s;
 }
-.shortClaps-img{
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
+
+img.product-img{
+	width:auto;
+	height:300px;
 }
-.connectExams-img{
-	background-image: url(../Images/connecExam-img1.png);
-	background-repeat: no-repeat;
-	background-size:contain;
-	width: 100%;
-}
-.simpli5-img{
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-}
-.zkool-img{
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
-}
+
 
 .fa-check-circle{
 	color:#ed1c24;
@@ -754,8 +749,9 @@ li.dropdown-menu{
 
 /*Simpli5*/
 
-.pillar-icon{
-	width:20%;
+img.pillar-icon{
+	width: auto;
+	height: 80px;
 	display:block;
 }
 .pillarcard{
