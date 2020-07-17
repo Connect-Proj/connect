@@ -590,7 +590,7 @@ li.dropdown-menu{
   .owl-carousel .owl-next,
 .owl-carousel .owl-prev {
 	position: absolute;
-	top: 85%;
+	top: 90%;
 
 
 }
@@ -665,14 +665,22 @@ li.dropdown-menu{
 	text-align: center;
   }
   
-  .sliding-background {
-	background: url("../Images/long\ logo\ corrected1-min.png") repeat-x;
+.sliding-background-clients {
+	background: url("../Images/our-clients.png") repeat-x;
 	zoom:98.6%;
 	height: 300px;
 	width: 5000px;
 	animation: slide 25s linear infinite;  
-  }
+}
+.sliding-background-companies{
+	background: url("../Images/company-logos.png") repeat-x;
+	zoom:98.6%;
+	height: 450px;
+	width: 5000px;
+	animation: slide 25s linear infinite;  
+}
   
+
   @keyframes slide{
 	0%{
 	  transform: translate3d(0, 0, 0);
