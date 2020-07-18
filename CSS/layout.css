@@ -69,6 +69,7 @@ html,body{
 	font-family: 'exo 2',sans-serif;
 	font-size:40px;
 	font-weight:600;
+	text-align: center;
 }
 
 .title{
@@ -517,7 +518,7 @@ nav ul li a {
 
 
 .myNav a,.stickyNav a{
-	font-size:14px;
+	font-size:15px;
 	text-decoration:none;
 	font-weight: bold;
 	color:black;
