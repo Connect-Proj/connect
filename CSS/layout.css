@@ -1,3 +1,41 @@
+/*
+Connect Training Solutions
+Version: 1.0
+Author: Team Bootup
+https://matchthemes.com
+*/
+
+
+/*************************************
+ 
+ 	1. MAIN STYLE
+	
+	2. HEADER
+	
+	3. HOME
+	
+	4. MENU PAGES
+	
+	5. GALLERY + TEAM
+	
+	6. BLOG
+	
+	7. FOOTER
+	
+	8. OTHER
+ 
+ 
+ ************************************/
+
+
+/*************************************
+
+1. MAIN STYLE
+
+ ************************************/
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;600&display=swap');
 
 html,body{
@@ -109,6 +147,11 @@ html,body{
 	color: white;
 	opacity: 0.8;
 }
+/*************************************
+
+1. HOME
+
+ ************************************/
 
 /* Home */
 .home{
@@ -186,6 +229,14 @@ html,body{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+/*************************************
+
+1. NAVIGATION
+
+ ************************************/
+
 
 
 /* My Navigation */
@@ -487,14 +538,12 @@ nav ul li a {
 	outline:0;
 }
 
-li.dropdown-menu{
-	font-size:12px;
-}
-
 .dropdown-menu{
+	font-size:12px;
 	display:none;
 	border-radius:5px;
 	box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+	text-align: center;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -502,9 +551,13 @@ li.dropdown-menu{
 	left:70px;
 }
 
+/*************************************
+
+1. COUNTER
+
+ ************************************/
 
 
-/*--Counter---*/
 
 .counterRow{
 	padding:10px 0;
@@ -536,7 +589,13 @@ li.dropdown-menu{
 	text-align: center;
 }
 
-/* testimonial */
+/*************************************
+
+1. TESTIMONAIL
+
+ ************************************/
+
+
 	.testimonial-card{
 		border-top:5px solid #f76b1c
 	}
@@ -591,8 +650,6 @@ li.dropdown-menu{
 .owl-carousel .owl-prev {
 	position: absolute;
 	top: 90%;
-
-
 }
 .owl-carousel .owl-prev {
   left: 46%;
@@ -606,19 +663,19 @@ li.dropdown-menu{
 	transform : scale(2,5);
 }
 
-  .owl-carousel .owl-nav.disabled{
+.owl-carousel .owl-nav.disabled{
 	display: block;
-  }
-  .owl-nav button:focus{
+}
+.owl-nav button:focus{
 	outline : 0;
 	border : 0;
-  }
-  
-  .owl-nav button :hover{
+}
+
+.owl-nav button :hover{
 	color:blue;
 	outline : 0;
 	border : 0;
-  }
+}
   
   @media only screen and (max-width: 700px){
 	.owl-carousel .owl-prev {
@@ -648,14 +705,19 @@ li.dropdown-menu{
 }
 
 
-/* roller */
+/*************************************
+
+1. ROLLER
+
+ ************************************/
+
 
 .rollingHolder,.rollingcontainer{
 	overflow: hidden;
   }
 
   
-  .rollerHeader{
+.rollerHeader{
 	margin: 2% 0%;
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 600;
@@ -663,7 +725,7 @@ li.dropdown-menu{
 	font-size: 40px;
 	line-height:50px;
 	text-align: center;
-  }
+}
   
 .sliding-background-clients {
 	background: url("../Images/our-clients.png") repeat-x;
@@ -672,6 +734,7 @@ li.dropdown-menu{
 	width: 5000px;
 	animation: slide 25s linear infinite;  
 }
+
 .sliding-background-companies{
 	background: url("../Images/company-logos.png") repeat-x;
 	zoom:98.6%;
@@ -689,6 +752,14 @@ li.dropdown-menu{
 	  transform: translate3d(-4100px, 0, 0);
 	}
   }
+
+/*************************************
+
+1. PRODUCTS
+
+ ************************************/
+
+
 
 /* products */
 .productsTitle{
@@ -718,9 +789,11 @@ img.product-img{
 /* Business Values */
 
 
+/*************************************
 
-/* Contact */
+1. FOOTER
 
+ ************************************/
 
 
 .customStyling{
@@ -756,7 +829,13 @@ img.product-img{
 }
 
 
-/*Simpli5*/
+
+
+/*************************************
+
+1. SIMPLI5
+
+ ************************************/
 
 img.pillar-icon{
 	width: auto;
