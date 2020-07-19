@@ -1,3 +1,41 @@
+/*
+Connect Training Solutions
+Version: 1.0
+Author: Team Bootup
+https://matchthemes.com
+*/
+
+
+/*************************************
+ 
+ 	1. MAIN STYLE
+	
+	2. HEADER
+	
+	3. HOME
+	
+	4. MENU PAGES
+	
+	5. GALLERY + TEAM
+	
+	6. BLOG
+	
+	7. FOOTER
+	
+	8. OTHER
+ 
+ 
+ ************************************/
+
+
+/*************************************
+
+1. MAIN STYLE
+
+ ************************************/
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;600&display=swap');
 @import url('/HurmeGeometricSans4\ Black.otf');
 
@@ -35,6 +73,7 @@ html,body{
 	font-family: 'exo 2',sans-serif;
 	font-size:40px;
 	font-weight:600;
+	text-align: center;
 }
 
 .title{
@@ -113,6 +152,11 @@ html,body{
 	color: white;
 	opacity: 0.8;
 }
+/*************************************
+
+1. HOME
+
+ ************************************/
 
 /* Home */
 .home{
@@ -190,6 +234,14 @@ html,body{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+/*************************************
+
+1. NAVIGATION
+
+ ************************************/
+
 
 
 /* My Navigation */
@@ -500,15 +552,13 @@ nav ul li a {
 	outline:0;
 }
 
-li.dropdown-menu{
-	font-size:12px;
-}
-
 .dropdown-menu{
+	font-size:12px;
 	display:none;
 	border-radius:5px;
 	padding:0 5px;
 	box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
+	text-align: center;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -516,10 +566,29 @@ li.dropdown-menu{
 	left:70px;
 }
 
+/*************************************
 
+1. COUNTER
 
-/*--Counter---*/
+ ************************************/
 
+.parallax{
+	background-image: url("../Images/parallax.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	margin-top: 80px;
+	/* padding-top: 0px; */
+	color: white;
+}
+
+@media only screen and (max-width : 500px){
+	.parallax{
+		height: 300px;
+	}
+}
 .counterRow{
 	padding:10px 0;
 	font-family: 'Exo 2', sans-serif;
@@ -550,7 +619,13 @@ li.dropdown-menu{
 	text-align: center;
 }
 
-/* testimonial */
+/*************************************
+
+1. TESTIMONAIL
+
+ ************************************/
+
+
 	.testimonial-card{
 		border-top:5px solid #f76b1c
 	}
@@ -604,9 +679,7 @@ li.dropdown-menu{
   .owl-carousel .owl-next,
 .owl-carousel .owl-prev {
 	position: absolute;
-	top: 85%;
-
-
+	top: 90%;
 }
 .owl-carousel .owl-prev {
   left: 46%;
@@ -620,19 +693,19 @@ li.dropdown-menu{
 	transform : scale(2,5);
 }
 
-  .owl-carousel .owl-nav.disabled{
+.owl-carousel .owl-nav.disabled{
 	display: block;
-  }
-  .owl-nav button:focus{
+}
+.owl-nav button:focus{
 	outline : 0;
 	border : 0;
-  }
-  
-  .owl-nav button :hover{
+}
+
+.owl-nav button :hover{
 	color:blue;
 	outline : 0;
 	border : 0;
-  }
+}
   
   @media only screen and (max-width: 700px){
 	.owl-carousel .owl-prev {
@@ -662,14 +735,19 @@ li.dropdown-menu{
 }
 
 
-/* roller */
+/*************************************
+
+1. ROLLER
+
+ ************************************/
+
 
 .rollingHolder,.rollingcontainer{
 	overflow: hidden;
   }
 
   
-  .rollerHeader{
+.rollerHeader{
 	margin: 2% 0%;
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 600;
@@ -677,16 +755,25 @@ li.dropdown-menu{
 	font-size: 40px;
 	line-height:50px;
 	text-align: center;
-  }
+}
   
-  .sliding-background {
-	background: url("../Images/long\ logo\ corrected1-min.png") repeat-x;
+.sliding-background-clients {
+	background: url("../Images/our-clients.png") repeat-x;
 	zoom:98.6%;
 	height: 300px;
 	width: 5000px;
 	animation: slide 25s linear infinite;  
-  }
+}
+
+.sliding-background-companies{
+	background: url("../Images/company-logos.png") repeat-x;
+	zoom:98.6%;
+	height: 450px;
+	width: 5000px;
+	animation: slide 25s linear infinite;  
+}
   
+
   @keyframes slide{
 	0%{
 	  transform: translate3d(0, 0, 0);
@@ -695,6 +782,14 @@ li.dropdown-menu{
 	  transform: translate3d(-4100px, 0, 0);
 	}
   }
+
+/*************************************
+
+1. PRODUCTS
+
+ ************************************/
+
+
 
 /* products */
 .productsTitle{
@@ -724,9 +819,11 @@ img.product-img{
 /* Business Values */
 
 
+/*************************************
 
-/* Contact */
+1. FOOTER
 
+ ************************************/
 
 
 .customStyling{
@@ -759,10 +856,17 @@ img.product-img{
 
 .contact-icon{
 	font-size:26px;
+	padding: 0 !important;
 }
 
 
-/*Simpli5*/
+
+
+/*************************************
+
+1. SIMPLI5
+
+ ************************************/
 
 img.pillar-icon{
 	width: auto;
