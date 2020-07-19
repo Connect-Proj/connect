@@ -566,10 +566,15 @@ nav ul li a {
 	width: 100%;
 	height: 200px;
 	margin-top: 80px;
-	padding-top: 10px;
+	/* padding-top: 0px; */
 	color: white;
 }
 
+@media only screen and (max-width : 500px){
+	.parallax{
+		height: 300px;
+	}
+}
 .counterRow{
 	padding:10px 0;
 	font-family: 'Exo 2', sans-serif;
