@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;600&display=swap');
+@import url('/HurmeGeometricSans4\ Black.otf');
+
+
 
 html,body{
 	scroll-behavior: smooth;
+	scroll-padding-top: 150px;
 	font-family:'exo 2',sans-serif;
 	font-weight: 300;
 	font-size:15px;
@@ -112,11 +116,11 @@ html,body{
 
 /* Home */
 .home{
+	margin-top:90px;
 	text-align:center;
 }
 
 .home .title{
-	
 	-webkit-animation: slidein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: slidein 2s; /* Firefox < 16 */
     -ms-animation: slidein 2s; /* Internet Explorer */
@@ -207,14 +211,25 @@ li {
 nav {
 	text-align:center;
 	width:100%;
-	position:relative;
-	height:auto;
+	top:0;
+	position:fixed;
+	z-index:99;
+	height:60px;
 	overflow:hidden;
-	background:none;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: white;
+}
+
+nav .logo-icon{
+	height:30px;
+}
+nav .logo-text{
+	color:black;
+	font-size:15px;
+	font-weight: bold;
 }
 nav ul {
-	opacity:0;
-	visibility:hidden;
+	color:black;
 }
 nav ul li a {
 	color:black;
@@ -275,7 +290,7 @@ nav ul li a {
 	height:100%;
 	background:white;
 	overflow:auto;
-	z-index:99;
+	z-index:999;
 	-moz-box-shadow:    -5px 0 10px 0 #555;
   	-webkit-box-shadow: -5px 0 10px 0 #555;
   	box-shadow:         -5px 0 10px 0 #555;
@@ -324,15 +339,12 @@ nav ul li a {
 }
 
 .wrap ul.wrap-nav li {
-	font-size:20px;
-	display:inline-block;
+	font-size:15px;
+	font-weight: bold;
 	vertical-align:top;
-	width:24%;
-	position:relative;
-}
+} 
 .wrap ul.wrap-nav li a {
-	color:#445750;
-	display:block;
+	color:black;
 	padding:8px 0;
 	text-decoration:none;
 	transition-property:all .2s linear 0s;
@@ -343,9 +355,10 @@ nav ul li a {
 }
 
 .wrap ul.wrap-nav ul li {
-	display:block;
+	font-weight:200;
+	text-align:left;
+	margin-left:30px;
 	font-size:13px;
-	width:100%;
 	color:black;
 }
 .wrap ul.wrap-nav ul li a {
@@ -466,7 +479,7 @@ nav ul li a {
 
 
 .myNav a,.stickyNav a{
-	font-size:14px;
+	font-size:15px;
 	text-decoration:none;
 	font-weight: bold;
 	color:black;
@@ -477,7 +490,7 @@ nav ul li a {
 }
 
 .myDropdown{
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	color:black;
 	background-color: white;
@@ -494,6 +507,7 @@ li.dropdown-menu{
 .dropdown-menu{
 	display:none;
 	border-radius:5px;
+	padding:0 5px;
 	box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
 }
 
@@ -766,10 +780,16 @@ img.pillar-icon{
 	font-weight:bold;
 }
 
+.simpli5-info .btn{
+	width:100%;
+	color:white;
+}
+
 
 @media only screen and (min-width:768px){
 
 	.home{
+		margin-top:20px;
 		padding:6% 3%;
 		text-align:left;
 	} 
@@ -817,7 +837,7 @@ img.pillar-icon{
 	
 	.home .title{
 		text-align: center;
-		font-size: 120px;
+		font-size: 100px;
 		width:0;	
 	} 
 	
