@@ -53,6 +53,13 @@ html,body{
 	padding:0;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
+
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -816,6 +823,13 @@ img.product-img{
 	color:#ed1c24;
 }
 
+.prodBtn{
+	display:none;
+}
+.prodMobBtn{
+	width:100%;
+}
+
 /* Business Values */
 
 
@@ -929,6 +943,14 @@ img.pillar-icon{
 	.counterStructure {
 		font-size:20px;
 		text-align: center;
+	}
+
+	.prodBtn{
+		display:block;
+	}
+
+	.prodMobBtn{
+		display:none;
 	}
 }
 
